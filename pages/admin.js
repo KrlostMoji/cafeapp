@@ -18,7 +18,7 @@ export default function Admin(){
       <h1 className='text-4xl font-black'>Resumen de órdenes</h1>
       <p className='text-2xl my-10'>Revisa las órdenes realizadas en tiempo real.</p>
       <Link 
-        href={'/balance'}
+        href={'/general'}
         className='text-xl text-amber-500 font-bold py-5'
       >Balance general</Link>
       {data && data.length 
