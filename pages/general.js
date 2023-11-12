@@ -4,7 +4,7 @@ import axios from 'axios'
 import Orden from '../components/Orden'
 import BalanceDiario from '../components/BalanceDiario';
 
-export default function Balance(){
+export default function General(){
 
   const fetcher = () => axios('/api/ordenBalance').then(datos => datos.data)
   const { data } = useSWR('/api/ordenBalance', fetcher, {refreshInterval: 100})
