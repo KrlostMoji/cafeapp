@@ -18,8 +18,7 @@ export default function Balance(){
     >
       <BalanceDiario
         balanceDiario = {balanceDiario}
-      >
-      </BalanceDiario>
+      />
       {data && data.length 
         ?
           
